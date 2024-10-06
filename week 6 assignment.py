@@ -3,7 +3,6 @@
 # Programming Assignment
 # Author Michael Perrine
 # 10/04/2024
-from itertools import count
 
 
 def main():
@@ -21,25 +20,12 @@ while True:
     value = int(input('Enter a temperature: \n'))
     temperature.append(value)
     choice= input('Enter another temperature? (y/n): \n ')
-
-    if choice.lower() == 'y':
-        print('Please enter another temperature')
-    elif choice.lower() == 'n':
-        print('Thank you')
         break
-    else:
-        print('Wrong choice please try again')
-        continue
 
-
-
-
-temperature_count = len(temperature)
 
 print(temperature)
 print(max(temperature))
 print(min(temperature))
-print(f"There are {temperature_count} in the list")
 
 main()
 
