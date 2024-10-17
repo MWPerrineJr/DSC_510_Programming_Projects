@@ -1,5 +1,5 @@
 #DSC 510
-# Week 6
+# Week 8
 # Programming Assignment
 # Author Michael Perrine
 # 10/04/2024
