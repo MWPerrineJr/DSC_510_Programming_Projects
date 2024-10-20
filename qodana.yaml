@@ -1,4 +1,8 @@
-#-------------------------------------------------------------------------------#
+
+#--------------------------------------------------
+
+
+  -----------------------------#
 #               Qodana analysis is configured by qodana.yaml file               #
 #             https://www.jetbrains.com/help/qodana/qodana-yaml.html            #
 #-------------------------------------------------------------------------------#
@@ -27,3 +31,9 @@ profile:
 
 #Specify Qodana linter for analysis (Applied in CI/CD pipeline)
 linter: jetbrains/qodana-jvm-community:latest
+
+
+
+
+
+
